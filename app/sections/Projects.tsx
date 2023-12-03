@@ -2,9 +2,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { ProjectsData } from './Data';
 import Link from "next/link";
-import { VscGithubAlt } from 'react-icons/vsc';
-import { CiShare1 } from 'react-icons/ci';
-import { IoIosPaper } from 'react-icons/io';
 import { MdClose } from 'react-icons/md';
 
 export default function Projects() {
@@ -66,7 +63,7 @@ export default function Projects() {
         <div id='Projects' ref={projectsContainerRef}>
             <div id="ProjectsContainer">
                 <div id="ProjectsHeaderContainer">
-                    <p id="ProjectsHeader">Projects</p>
+                    <p id="ProjectsHeader">Blogs</p>
                     <button id="ProjectsHeaderToggle" onClick={toggleEffect}>Effect: {effectText}</button>
                 </div>
                 <div id="ProjectsListContainer">
@@ -99,13 +96,13 @@ export default function Projects() {
                                 </div>
                                 <div id="ProjectIconsContainer">
                                     <div id="GithubIconContainer">
-                                        <Link id="GithubLink" href={data.github} target='_blank'> <VscGithubAlt id='GithubIcon' />Video Demos</Link>
+                                        <Link id="GithubLink" href={data.github} target='_blank'> Like</Link>
                                     </div>
                                     <div id="RedirectIconContainer">
-                                        <Link id="RedirectLink" href={data.siteURL} target='_blank'> <CiShare1 id='RedirectIcon' />View Site</Link>
+                                        <Link id="RedirectLink" href={data.siteURL} target='_blank'> Save</Link>
                                     </div>
                                     <div id="DocsIconContainer">
-                                        <Link id="DocsLink" href="/docs"> <IoIosPaper id='DocsIcon' />Docs</Link>
+                                        <Link id="DocsLink" href="/docs"> Read By</Link>
                                     </div>
                                 </div>
                             </div>
@@ -113,7 +110,7 @@ export default function Projects() {
                     ))}              
                 </div>                    
                 <div id="MoreContainer">
-                    <p id="More">And More... Browse My <Link id='MoreGitHub' href='https://github.com/dawitalemu4' target="_blank">GitHub</Link> or Visit the <Link id='DocsA' href='/docs'>Docs Page for Devs</Link>!</p>
+                    <p id="More">And More... Reag all our blogs here! <Link id='MoreGitHub' href='#' target="_blank">Blogs</Link></p>
                 </div>
                 <div id="ModalContainer" style={{ display: showModal ? "flex" : "none" }} onClick={toggleModal}>
                     <div id='CloseModal' onClick={toggleModal}><MdClose /></div>

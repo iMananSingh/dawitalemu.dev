@@ -17,18 +17,25 @@ export default function Contact() {
         <div id='Contact'>
             <div id="ContactContainer">
                 <div id="ContactHeaderContainer">
-                    <p id='ContactHeader'>Contact Me (You Should)</p>
+                    <p id='ContactHeader'>Contact Us (You Should)</p>
+                </div>
+                <div id="ContactHeaderContainer">
+                    <p >Tata Book is India's most trusted Platform For Providing Online Sports ID's.</p>
+                    <p >Now available 24/7 online with our services.</p>
                 </div>
                 <div id="ContactBodyContainer">
                     <div id="ContactIconsConatiner">
-                        <Link id="ContactEmail" href='https://mail.google.com/mail?view=cm&fs=1&to=dndawita@gmail.com&su=Draft' target='_blank'><img id="EmailIcon" src="mail.webp" /></Link>
-                        <Link id="ContactLinkedin" href='https://www.linkedin.com/in/dawit-alemu4' target='_blank'><img id="LinkedinIcon" src="in.webp" /></Link>
-                        <Link id="ContactGitHub" href="https://github.com/dawitalemu4" target='_blank'><img id="GitHubIcon" src="github.webp" /></Link>
+                        <Link id="ContactEmail" href='#' target='_blank'><img id="EmailIcon" src="mail.webp" /></Link>
+                        <Link id="ContactLinkedin" href='#' target='_blank'></Link>
+                        <Link id="ContactGitHub" href="#" target='_blank'></Link>
                     </div>
                     <div id="ContactButtonContainer">
                         <p id="ContactButtonText">Click the arrow to see it all in reverse!</p>
                         <button id="ContactButton" onClick={toTop}><HiArrowNarrowUp /></button>
                     </div>
+                </div>
+                <div id="ContactFooterContainer">
+
                 </div>
             </div>
             <style>
@@ -124,7 +131,7 @@ export default function Contact() {
                     }
 
                     #ContactButtonText {
-                        font-size: 20px;
+                        font-size: 12px;
                         font-family: InterBold;
                         text-align: center;
                     }
@@ -133,10 +140,10 @@ export default function Contact() {
                         display: flex;
                         position: relative;
                         width: 300px;
-                        height: 80px;
+                        height: 50px;
                         justify-content: center;
                         align-items: center;
-                        font-size: 50px;
+                        font-size: 30px;
                         margin-top: 10px;
                     }
 

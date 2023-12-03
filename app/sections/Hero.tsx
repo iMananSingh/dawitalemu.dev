@@ -68,8 +68,8 @@ export default function Hero() {
                         <div id='Arrow'>Scroll Down<HiArrowNarrowDown/></div>
                 </div>                
                 <div id="HeaderContainer">
-                    <p id="HeaderText">Dawit Alemu</p>
-                    <p id="HeaderSubText">Full-Stack Software Developer</p>
+                    <p id="HeaderText">Tata Book</p>
+                    <p id="HeaderSubText">Desh ki Book</p>
                 </div>
             </div>
         <style>

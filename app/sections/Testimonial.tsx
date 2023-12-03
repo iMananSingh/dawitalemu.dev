@@ -38,20 +38,10 @@ export default function About() {
 
     return (
         <div id='About' ref={aboutContainerRef}>
-            <div id="AboutContainer">
-
-                
-
-                <div id="AboutParagraphContainer">
-                    <p id='AboutParagraph'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                    <br/><br/> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. <br/><br/> Keep scrolling!</p>
-                </div>                   
+            <div id="AboutContainer">                 
                 <div id='AboutImageContainer'>
-                    <img id='AboutImage' src='' alt='' />
+                    <img id='AboutImage' src='' alt=''/>
                 </div>                 
-                <div id='AboutTitleContainer'>
-                    <p id='AboutTitle'>Join-Now</p>
-                </div>
             </div>
         <style>
             {` 

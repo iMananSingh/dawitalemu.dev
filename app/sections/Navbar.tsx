@@ -57,13 +57,13 @@ export default function Navbar() {
                     <img id="X" src="x.webp" onClick={toggleMenu} />
                 </div>
                 <ul id="NavbarListContainer">
-                    <li onClick={() => handleMenuClick('Hero')}>Home</li>
-                    <li onClick={() => handleMenuClick('Experience')}>Experience</li>
-                    <li onClick={() => handleMenuClick('Projects')}>Projects</li>
+                    <li onClick={() => handleMenuClick('Hero')}>Join</li>
+                    <li onClick={() => handleMenuClick('Experience')}>Home</li>
+                    <li onClick={() => handleMenuClick('Projects')}>Blogs</li>
                     <li onClick={() => handleMenuClick('Contact')}>Contact</li>
                 </ul>
                 <div id="DevButtonContainer">
-                    <Link id="DevButton" href="/docs">{texts[textIndex]}</Link>
+                    <Link id="DevButton" href="#">Contact on Whatsapp</Link>
                 </div>
             </div>
             <style>
